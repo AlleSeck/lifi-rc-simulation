@@ -6,10 +6,10 @@ from scipy.integrate import odeint
 # PARAMÈTRES GÉNÉRAUX
 # -----------------------
 fs = 10000          # fréquence d’échantillonnage (Hz)
-periode = 1/fs
+periode = 1/fs      # la periode (s)
 Tb = 0.01           # durée d'un bit (s)
 Nbit = int(fs * Tb) # nb d'échantillons par bit doonc j'aurai 100
-Tau = 0.003         # constante de temps RC (5 ms)
+Tau = 0.003         # constante de temps RC (3 ms)
 NoiseSigma = 0.62   # écart-type du bruit gaussien (à ajuster)
 
 
